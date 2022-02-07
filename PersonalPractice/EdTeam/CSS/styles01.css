@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(153, 150, 150);
+    /* Calls the font imported in HTML */
+    font-family: 'Press Start 2P',cursive;
+    color: white;
+}
+
+/* Variables CSS - Custom Properties */
+:root{
+    /* 
+        This is a variable created by me,
+        this contains the value assigned 
+        and re-uses it when called
+    */
+    --samplecolor:red;
+}
+/* THIS IS HOW YOU USE IT!!! */
+p{
+    color:var(--samplecolor);
+}
