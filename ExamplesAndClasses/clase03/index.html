@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health coach velas aromáticas en CABA</title>
+</head>
+<body>
+    <header>
+        <!-- Inicia nav -->
+        <nav>
+            <a href="index.html">
+                <img src="./img/logo.png" alt="logo de health coach">
+            </a>
+            <ol>
+                <li>
+                    <a href="promociones.html">Promociones</a>
+                </li>
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li>
+                    <a href="https://www.coderhouse.com" target="__self">Coderhouse</a>
+                </li>
+            </ol>
+        </nav>
+        <!-- ends nav -->
+        <img src="./img/header.jpg" alt="velas artesanales para el hogar">
+        <h1>Velas health Coach</h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Contacto</h2>
+                <form action="envio.php" method="post" id="contacto">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label for="nombre">Nombre y apellido</label>
+                        <input type="text" placeholder="Ingrese su nombre" name="nombre" id="nombre">
+                        <label for="email">E-mail</label>
+                        <input type="email" plac>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Información del pedido</legend>
+                        <label for="velas">Velas</label>
+                        <input type="checkbox" name="velas" id="velas">
+                        <label for="difursores">Difusores</label>
+                        <input type="checkbox" value="difusores" name="difusoresı">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Info de pedido</legend>
+                        <label for="domicilio">Envio a domicilio</label>
+                        <input for="radio" name="domicilio" value="domicilio" id="domicilio">
+                        <br>
+                        <label for="envio">Retiro en local</label>
+                        <input type="radio" name="envio" value="local" id="local">
+                        <br>
+                        <select name="localidad" id="localidad">
+                            <option value="caba">Ciudad de Buenos Aires</option>
+                            <option value="bsas">Provincia de Buenos Aires</option>
+                            <option value="interior">Interior del Pais</option>
+                        </select>
+                    </fieldset>
+                    <br><br>
+                    <label for="mensaje">Deja tu mensaje</label>
+                    <br>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
+                    <br>
+                    <input type="button" value="Enviar">
+                    <input type="reset" value="Cancelar">
+                </form>
+            </div>
+        <!-- end form -->
+        <br>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29879.85079011964!2d-103.4777478217896!3d20.588819269239274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ab679fe90c51%3A0xa4452fe8db7599ba!2sEl%20Palomar%2C%20Palomar%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1644368662912!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         <!-- end map--> 
+        </section>
+    </main>
+    <!-- Cierra main -->
+
+    <footer>
+        <h3>Síguenos en nuestras redes</h3>
+        <a href="https://www.twitter.com/" target="_blank">
+            <img src="./img/twitter.png" alt="twitter">
+        </a>
+    </footer>
+</body>
+</html>

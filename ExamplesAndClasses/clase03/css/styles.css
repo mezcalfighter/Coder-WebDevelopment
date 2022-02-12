@@ -1,0 +1,80 @@
+/* Here creates rules for all h1 tags */
+/* Esta sentencia hace que el rem valga 10 en vez de 16 */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* Imagen de background */
+    background-image: url(../img/Collection\ 4\ A.jpeg);
+    /* Que se repita el background o solo una parte */
+    background-repeat: no-repeat;
+    /* posición del background */
+    background-position: top right;
+    /* tamaño imagen */
+    background-size: cover;
+    /*Hace el fondo fijo o que se mueva con el scroll (fixed or scroll)*/
+    background-attachment: fixed;
+}
+
+h1{
+    color:red;
+}
+
+h2, h3{
+    color: violet;
+    /* tipografía */
+    font-family: 'Shizuru', cursive;
+}
+
+/* Here will create a rule for all p in article */
+article p{
+    /* El color de las letras */
+    color: rgb(98, 95, 95);
+    /* El grosor de las letras */
+    font-weight: 600;
+    /* tamaño de letra rem = 16px aprox*/
+    font-size: 2rem;
+    /* Salto de linea entre textos*/
+    line-height: 2.4rem;
+}
+
+/* Selectores decentientes (You can use more than one) */
+header nav{
+    background-color: violet;
+}
+    header nav ol li{
+        list-style: none;
+    }
+        header nav ol li a{
+            color: white;
+            /* Decorado de texto (subrayado, tachado, linea por arriba o ninguno*/
+            text-decoration: none;
+        }
+
+/* Selectores de clases */
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-italics{
+    font-style: italic;
+}
+
+/* ancho de la imagen */
+.w100{
+    width: 100%;
+}
+
+/* Selector de ID (Como el CURP de la etiqueta) */
+#nosotros{
+    color: aqua;
+}
