@@ -2,8 +2,19 @@ html{
     font-size: 62.5%;
 }
 
-header{
+body{
     font-family: 'Press Start 2P', cursive;
+}
+
+p, td, th{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+header{
     background-color: aquamarine;
     line-height: 4.4rem;
 }
