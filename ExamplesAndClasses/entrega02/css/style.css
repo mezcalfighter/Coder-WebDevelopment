@@ -1,0 +1,40 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+
+p, td, th{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+header{
+    background-color: aquamarine;
+    line-height: 4.4rem;
+}
+    header h1{
+        font-size: 4.2rem;
+    }
+    header a{
+        font-size: 3rem;
+        text-decoration: none;
+    }
+    header li{
+        list-style: none;
+    }
+
+footer{
+    font-family: 'Press Start 2P', cursive;
+    background-color: aquamarine;
+    line-height: 4.4rem;
+}
+    footer a{
+        font-size: 3rem;
+        text-decoration: none;
+    }
