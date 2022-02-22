@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+  		list-style: none;
+  		background-color: orange;
+      font-size: 0; /*truco para el display inline-block*/
+      padding: 20px;
+	}
+
+   li {
+      display: inline-block;
+      width: 25%;
+      position:relative;
+      font-size: 1rem
+   }
+
+   ul ul {
+         position: absolute;
+         display: none;
+      }
+
+      ul ul li {
+          display: block;
+         }
+
+      ul li:hover ul {
+            display:block;
+         }
+
+   a{
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+   }
+
+   a:hover{
+      color: black;
+   }
