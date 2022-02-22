@@ -77,6 +77,7 @@ footer{
         border: 5px;
         border-style: dotted;
         box-sizing: border-box;
+        padding-bottom: 20px;
     }
 
     .contacto__box--preguntas h2{
@@ -87,12 +88,34 @@ footer{
         margin: auto;
     }
 
+    /* Main Tabla de mi stack y frontend dev*/
+    #tabla__box--stack{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+        #tabla__box--stack iframe{
+            width: 100%;
+        }
+
+        #tabla__box--stack img{
+            width: 10rem;
+            height: 10rem;
+            background-image: none;
+        }
+
+            #tabla__box--stack table, #tabla__box--stack h2{
+                margin: auto;
+            }
+
     /* Main -- Github */
     .contacto__box--repositorio{
         width: 100%;
         border: 5px;
         border-style: dotted;
         box-sizing: border-box;
+        padding-bottom: 20px;
     }
 
     .contacto__box--repositorio h2{
