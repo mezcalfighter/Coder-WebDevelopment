@@ -51,6 +51,8 @@ footer{
         .menu__box--principal nav img{
             height: 5%;
             width: 5%;
+            padding-left:20px;
+            padding-top: 20px;
         }
 
         .menu__box--principal nav ul{
