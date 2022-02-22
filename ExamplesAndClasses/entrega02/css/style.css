@@ -71,6 +71,38 @@ footer{
                 border-style:ridge;
             }
 
+    /* Main -- Freelance */
+    .contacto__box--preguntas{
+        width: 100%;
+        border: 5px;
+        border-style: dotted;
+        box-sizing: border-box;
+    }
+
+    .contacto__box--preguntas h2{
+        text-align: center;
+    }
+
+    .contacto__box--preguntas table{
+        margin: auto;
+    }
+
+    /* Main -- Github */
+    .contacto__box--repositorio{
+        width: 100%;
+        border: 5px;
+        border-style: dotted;
+        box-sizing: border-box;
+    }
+
+    .contacto__box--repositorio h2{
+        text-align: center;
+    }
+
+    .contacto__box--repositorio table{
+        margin: auto;
+    }
+
     /* Footer */
     .pie__box--twitter{
         width: 100%;
@@ -90,3 +122,4 @@ footer{
         height: 40px;
         padding-left: 10px;
     }
+
