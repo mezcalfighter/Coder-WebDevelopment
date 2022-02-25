@@ -42,107 +42,109 @@ footer{
         text-decoration: none;
     }
 
-    /* Header */
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-flow: column
+}
+
+/* Header */
     .menu__box--principal nav{
-        width: 100%;
-        position: static;
-        box-sizing: border-box;
+    width: 100%;
+    position: static;
+    box-sizing: border-box;
+}
+    .menu__box--principal nav img{
+        height: 5%;
+        width: 5%;
+        padding-left:20px;
+        padding-top: 20px;
     }
-        .menu__box--principal nav img{
-            height: 5%;
-            width: 5%;
-            padding-left:20px;
-            padding-top: 20px;
+    .menu__box--principal nav ul{
+        display: inline-block;
+    }
+        .menu__box--principal nav ul li{
+           display: inline;
         }
 
-        .menu__box--principal nav ul{
-            display: inline-block;
+        .menu__box--principal nav ul li a{
+            font-size: 1rem;
+            padding-right: 10px;
+            border: 5px;
+            padding: 10px;
+            border-style:ridge;
         }
-
-            .menu__box--principal nav ul li{
-                display: inline;
-            }
-
-            .menu__box--principal nav ul li a{
-                font-size: 1rem;
-                padding-right: 10px;
-                border: 5px;
-                padding: 10px;
-                border-style:ridge;
-            }
-
     /* Main -- Freelance */
-    .contacto__box--preguntas{
+.contacto__box--preguntas{
+    width: 100%;
+    border: 5px;
+    border-style: dotted;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+.contacto__box--preguntas h2{
+    text-align: center;
+}
+
+.contacto__box--preguntas table{
+    margin: auto;
+}
+
+/* Main Tabla de mi stack y frontend dev*/
+#tabla__box--stack{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+    #tabla__box--stack iframe{
         width: 100%;
-        border: 5px;
-        border-style: dotted;
-        box-sizing: border-box;
-        padding-bottom: 20px;
     }
 
-    .contacto__box--preguntas h2{
-        text-align: center;
+    #tabla__box--stack img{
+        width: 10rem;
+        height: 10rem;
+        background-image: none;
     }
 
-    .contacto__box--preguntas table{
-        margin: auto;
-    }
-
-    /* Main Tabla de mi stack y frontend dev*/
-    #tabla__box--stack{
-        width: 100%;
-        box-sizing: border-box;
-        text-align: center;
-    }
-
-        #tabla__box--stack iframe{
-            width: 100%;
+        #tabla__box--stack table, #tabla__box--stack h2{
+            margin: auto;
         }
 
-        #tabla__box--stack img{
-            width: 10rem;
-            height: 10rem;
-            background-image: none;
-        }
+/* Main -- Github */
+.contacto__box--repositorio{
+    width: 100%;
+    border: 5px;
+    border-style: dotted;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
 
-            #tabla__box--stack table, #tabla__box--stack h2{
-                margin: auto;
-            }
+.contacto__box--repositorio h2{
+    text-align: center;
+}
 
-    /* Main -- Github */
-    .contacto__box--repositorio{
-        width: 100%;
-        border: 5px;
-        border-style: dotted;
-        box-sizing: border-box;
-        padding-bottom: 20px;
-    }
+.contacto__box--repositorio table{
+    margin: auto;
+}
 
-    .contacto__box--repositorio h2{
-        text-align: center;
-    }
+/* Footer */
+.pie__box--twitter{
+    width: 100%;
+    height: 100px;
+}
+.pie__box--twitter h2{
+    font-size: 2rem;
+    padding: 2rem;
+    line-height: 0%;
+}
+.pie__box--twitter a{
+    padding-left: 10px;
+}
 
-    .contacto__box--repositorio table{
-        margin: auto;
-    }
-
-    /* Footer */
-    .pie__box--twitter{
-        width: 100%;
-        height: 100px;
-    }
-    .pie__box--twitter h2{
-        font-size: 2rem;
-        padding: 2rem;
-        line-height: 0%;
-    }
-    .pie__box--twitter a{
-        padding-left: 10px;
-    }
-
-    .pie__box--twitter img{
-        width: 40px;
-        height: 40px;
-        padding-left: 10px;
-    }
-
+.pie__box--twitter img{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
