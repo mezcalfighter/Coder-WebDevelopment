@@ -59,11 +59,11 @@
 
 	/* Flex */
 		.flex-direction{
-			flex-direction:column-reverse;
+			flex-direction:row-reverse;
 		}
 
 		.flex-wrap{
-			flex-wrap: wrap-reverse;
+			 flex-wrap: wrap-reverse;
 		}
 
 		.flex-flow{
@@ -71,15 +71,15 @@
 		}
 
 		.justify-content{
-			justify-content: space-evenly;
+			
 		}
 
 		.align-items{
-			align-items: center;
+			
 		}
 
 		.align-content{
-			align-content: space-evenly;
+			
 		}
 
 		/* hijos propiedades*/
