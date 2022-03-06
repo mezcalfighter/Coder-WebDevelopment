@@ -1,0 +1,17 @@
+Mobile First
+https://wireframe.cc/X2FU4x
+
+Tablet
+https://wireframe.cc/uLP2JU
+
+Desktop
+https://wireframe.cc/aBem2p
+
+
++++++++++++++++++++++++++++
+Meta Viewport
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+
+Photopea
+https://www.photopea.com/

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+	font-family: 'Roboto Condensed', sans-serif; 
+}
+
+
+/* Fondos colores */
+.bg-red{
+	background-color: red;
+	}
+
+.bg-grey{
+	background-color: grey;
+	}
+
+.bg-yellow{
+	background-color: yellow;
+	}
+
+.bg-green{
+	background-color: green;
+	}
+
+.bg-blue{
+	background-color: blue;
+	}
+
+.bg-dark{
+	background-color:#403E3E;
+}
+ 
+
+/*Definimos que nuestro contenedor se muestre como GRID */
+.grid{
+	width:99%;
+
+}
+
+/*Definimos nuestro templates por filas y columnas */
+.grid-template-columns-row{
+
+}
+
+/*Definimos nuestro templates por áreas */
+.template-areas{
+
+	}
+
+#botonera{
+	
+}
+
+#centro{
+	
+}
+
+#links-interes{
+	
+}
+
+#pie{
+	
+}
+
+/*Posición de los elementos */
+.justify-items{
+	
+}
+
+.align-items{
+	
+}
+
+/*Posición del contenido */
+.justify-content div{
+	padding: 20px;
+	text-align: center;
+}
+
+.justify-content{
+	grid-template-columns:repeat(3, 300px);
+	height: 500px;
+}
+
+.align-content{
+	
+}
+
+
+
+.column-row-start-end{
+	grid-template-columns:repeat(3, 200px);
+	height: 500px;
+}
+
+.column-row-start-end-item{
+
+}

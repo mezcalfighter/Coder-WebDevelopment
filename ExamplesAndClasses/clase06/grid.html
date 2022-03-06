@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clase 6 - Grid</title>
+	<link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+
+<h3>Grid template columns - Grid template rows</h3>
+<p>Grid column gap - Grid row gap - repeat </p>
+	<div class="grid grid-template-columns-row">
+		<!--fila I -->
+		<div class="bg-blue">item a</div>
+		<div class="bg-blue">item b</div>
+
+		<!-- fila II -->
+		<div class="bg-grey">item c</div>
+		<div class="bg-yellow">item d</div>
+
+		<!-- fila III -->
+		<div class="bg-green">item e</div>
+		<div class="bg-green">item f</div>
+	</div>
+<hr>
+
+<h3>Grid template areas - Grid area </h3>
+	<div class="grid template-areas">
+		<nav id="botonera" class="bg-yellow"></nav>
+		<main id="centro" class="bg-grey"></main>
+		<aside id="links-interes" class="bg-green"></aside>
+		<footer id="pie" class="bg-blue"></footer>
+	</div>
+<hr>
+
+<p><strong><mark>Posición de los elementos</mark></strong></p>
+<h3>- Justify items (Posición de los items en el eje horizontal) <small>justify-items: start | end | center | stretch | space-around</small></h3>
+
+<h3>- Align items (Posición de los items en el eje vertical) <small>align-items: start | end | center | stretch</small></h3>
+
+	<div class="bg-dark grid grid-template-columns-row justify-items align-items">
+			<!--fila I -->
+			<div class="bg-blue">item a</div>
+			<div class="bg-blue">item b</div>
+
+			<!-- fila II -->
+			<div class="bg-grey">item c</div>
+			<div class="bg-yellow">item d</div>
+
+			<!-- fila III -->
+			<div class="bg-green">item e</div>
+			<div class="bg-green">item f</div>
+	</div>
+<hr>
+
+<p><strong><mark>Posición del contenido</mark></strong></p>
+<h3>Justify content (Posición del contenido en el eje horizontal)</h3> 
+<p><i>justify-content: start | end | center | stretch | space-around | space-between | space-evenly</i></p>
+<h3>Align content (Posición del contenido en el eje vertical)</h3>
+<p><i>align-content: start | end | center | stretch | space-around | space-between | space-evenly</i></p>
+	<div class="bg-dark grid justify-content align-content">
+			<!--inician las columnas -->
+			<div class="bg-blue">item a</div>
+			<div class="bg-green">item b</div>
+
+			<!-- inician las filas -->
+			<div class="bg-grey">item c</div>
+			<div class="bg-yellow">item d</div>
+			<div class="bg-grey">item e</div>
+			<div class="bg-green">item f</div>
+	</div>
+
+<h3>Grid column start/end - Grid row start/end</h3>
+<p>grid-column-start | grid-column-end | grid-row-start | grid-row-end | grid-column | grid-row</p>
+	
+	<div class="bg-dark grid column-row-start-end">
+			<div class="bg-blue column-row-start-end-item">item a</div>
+			<div class="bg-green">item b</div>
+			<div class="bg-grey ">item c</div>
+			<div class="bg-yellow">item d</div>
+			<div class="bg-red">item e</div>
+			<div class="bg-green">item f</div>
+	</div>
+</body>
