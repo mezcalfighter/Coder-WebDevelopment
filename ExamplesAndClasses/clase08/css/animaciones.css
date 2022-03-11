@@ -55,55 +55,86 @@ div{
 /* clases para los temas de hoy*/
 
 .linear-gradient{
-	
+	/*to bottom to top*/
+	/* background: linear-gradient(circle, yellow, red, pink, gray); */
+	background: radial-gradient(circle, yellow, red, pink, gray);
 }
 
 .transform:hover{
-	
+	transform: translate(-10px,10px);
+	cursor: pointer;
 }
 
 .rotate:hover{
-	
+	transform: rotateX(360deg);
+	cursor: pointer;
+	transition: transform 2s;
 }
 
 .scale:hover{
-	
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+	transition: transform 2s;
 }
 
 .skew:hover{
-	
+	transform: skew(10deg);
+	cursor: pointer;
+	transition: transform 2s;
 }
 
 @keyframes animateDiv{
-	
+	0%{width: 100px;}
+	25%{width: 200px;}
+	50%{width: 300px;}
+	75%{width: 400px; background-color: red;}
+	100%{width: 200px; background-color: green;}
 }
 
 .animate{
-	
+	animation-name: animateDiv;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-duration: 2s;
+	animation-delay: 1s;
 }
 
 
 .transition{
-	
+	width: 100px;
+	height: 200px;
+	background-color: orange;
+	transition: all 3s;
 }
 
 .transition:hover{
-	
+	width: 300px;
+	cursor: pointer;
 }
 
 @keyframes textAlpha{
-	
+	from{opacity: 0;}
+	to{opacity: 1;}
 }
 
 
 h3{
-	
+	animation-name: textAlpha;
+	animation-duration: 3s;
 }
 
 button{
-	
+	width: 100px;
+	height: 30px;
+	background: linear-gradient(to top, yellow, red);
+	text-align: center;
+	border: 0;
+	border-radius: 3px;
+	transition: background 3s;
 }
 
 button:hover{
-	
+	background: linear-gradient(to top, red, yellow);
+	color: black;
+	cursor: pointer;
 }

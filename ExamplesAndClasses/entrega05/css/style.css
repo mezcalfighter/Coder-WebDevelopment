@@ -61,6 +61,11 @@ footer{
         text-decoration: none;
     }
 
+.btn-submit:hover{
+    transform: scale(1.0,1.0);
+    cursor: pointer;
+    transition: 1ms;
+}
 
 .container{
     display: grid;
@@ -166,6 +171,11 @@ footer{
     padding-left: 10px;
 }
 
+.menu-ani:hover{
+    transform: translate(10px,-10px);
+	cursor: pointer;
+}
+
 @media only screen and (min-width: 768px){
     body{
         grid-template-columns: repeat(3, 1fr);
@@ -175,6 +185,6 @@ footer{
     }
 
     .menu__box--principal nav ul li{
-        display:inline;
+        display:inline-flex;
      }
 }
