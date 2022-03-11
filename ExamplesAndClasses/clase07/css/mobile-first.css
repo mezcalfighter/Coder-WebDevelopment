@@ -16,22 +16,34 @@ nav, main, aside, footer{
 
 nav{
 	background-color: #A29C9C;
+	grid-area: nav;
 }
 
 main{
 	background-color: #423E3E;
+	grid-area: main;
 }
 
 aside{
 	background-color: #93E78A;
+	grid-area: aside;
 }
 
 footer{
 	background-color: #325835;
+	grid-area: footer;
 }
 
 body{
-
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10vh 60vh 25vh 5vh;
+	grid-template-areas: "nav" "main" "aside" "footer";
 }
 
-
+@media only screen and (min-width: 768px){
+	body{
+		grid-template-columns: repeat(3,1fr);
+		grid-template-rows: 10vh 85vh 5vh;
+	}
+}
